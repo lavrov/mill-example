@@ -7,6 +7,7 @@ object api extends ScalaModule {
 
   def ivyDeps = Agg (
     ivy"com.typesafe.akka::akka-http:10.1.0",
-    ivy"org.typelevel::cats-core:1.1.0"
-  ) 
+    ivy"org.typelevel::cats-core:1.1.0",
+    ivy"de.heikoseeberger::akka-http-circe:1.20.0"
+  )
 }
